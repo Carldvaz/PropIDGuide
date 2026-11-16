@@ -1,0 +1,37 @@
+name: Set aside a prop ID range
+description: Pick a range of prop numbers for your mods, so they don't cross paths with others.
+title: "Range: "
+labels: ["range request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **A guide for creators, not a rule.** Ranges are suggestions so props from different mods
+        don't cross paths. No number is locked and nobody owns a number.
+        By default a range is 1000 numbers; new ranges start at 100000.
+  - type: input
+    id: creator
+    attributes:
+      label: Creator name
+      description: The name you publish your mods under. It will be shown in the guide.
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: How many numbers?
+      options:
+        - "1000 (default)"
+        - "100"
+        - "Other (say why below)"
+    validations:
+      required: true
+  - type: input
+    id: existing
+    attributes:
+      label: Props you already published, if any
+      description: Their numbers, so the range can be built around them (e.g. 640064-640066).
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

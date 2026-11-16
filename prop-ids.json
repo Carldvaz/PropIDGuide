@@ -1,0 +1,24 @@
+{
+  "format": "WWE 2K26 prop ID guide",
+  "version": 1,
+  "updated": "2026-11-16",
+  "notice": "A guide for creators, not a rule. Ranges are suggestions so props from different mods don't cross paths. No number is locked and nobody owns a number.",
+  "reserved": [
+    {"from": 0, "to": 9999, "by": "the game",
+     "note": "Props that ship with WWE 2K26, and room for the ones updates add."},
+    {"from": 10000, "to": 10000, "by": "the game", "note": "Championship belts."},
+    {"from": 999999, "to": 999999, "by": "the game", "note": "Invalid-prop marker."}
+  ],
+  "ranges": [
+    {"from": 640000, "to": 640999, "creator": "ChucketCharls", "note": ""}
+  ],
+  "props": [
+    {"id": 640000, "creator": "ChucketCharls", "name": "Chair_Of_Wheels", "used_in": "Hardy Compound"},
+    {"id": 640001, "creator": "ChucketCharls", "name": "Wheel_Barrel", "used_in": "Hardy Compound"},
+    {"id": 640064, "creator": "ChucketCharls", "name": "silver_stair_aaa", "used_in": "AAA Origenes"},
+    {"id": 640065, "creator": "ChucketCharls", "name": "silver_upper_stair_aaa", "used_in": "AAA Origenes (steps piece)"},
+    {"id": 640066, "creator": "ChucketCharls", "name": "silver_lower_berth_stair_aaa", "used_in": "AAA Origenes (steps piece)"},
+    {"id": 64640, "creator": "ChucketCharls", "name": "DEL_RIO_CAR", "used_in": ""},
+    {"id": 4428, "creator": "ChucketCharls", "name": "La_Yesca", "used_in": ""}
+  ]
+}
